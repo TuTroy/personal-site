@@ -1,0 +1,12 @@
+node_modules
+build
+.svelte-kit
+.DS_Store
+.claude/
+.superpowers/
+projects/
+designs/
+docs/superpowers/
+*.md
+!PLAN.md
+static/data/

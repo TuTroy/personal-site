@@ -1,5 +1,5 @@
 <script>
-  let { project } = $props();
+  let { project, eventCount = 0 } = $props();
 </script>
 
 <a href="/projects/{project.slug}" class="project-card" class:project-card--ongoing={project.inProgress}>
@@ -23,6 +23,11 @@
       <p>{project.result}</p>
     </div>
   </div>
+  {#if eventCount > 0}
+    <div class="project-card__events">
+      <span class="project-card__events-count">{eventCount} 条更新</span>
+    </div>
+  {/if}
 </a>
 
 <style>
@@ -69,6 +74,16 @@
     text-transform: uppercase;
     color: var(--muted-lighter);
     padding-top: 3px;
+  }
+  .project-card__events {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--hairline);
+  }
+  .project-card__events-count {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted-lighter);
   }
   @media (max-width: 480px) {
     .project-card { padding: 24px 22px; }

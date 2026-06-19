@@ -1,5 +1,5 @@
 <script>
-  import { site } from '$lib/data.js';
+  import { site } from '$lib/data';
 </script>
 
 <section class="hero">

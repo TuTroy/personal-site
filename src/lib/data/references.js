@@ -1,0 +1,92 @@
+export const references = [
+  {
+    name: 'The Pudding',
+    url: 'https://pudding.cool',
+    desc: '用数据讲故事的标杆。每篇文章都是一次可视化实验，排版、交互、叙事节奏堪称教科书级，大量使用 D3.js + 自定义动画。',
+    tags: ['可视化', '叙事', 'D3.js'],
+  },
+  {
+    name: 'ObservableHQ',
+    url: 'https://observablehq.com',
+    desc: 'D3.js 作者 Mike Bostock 创办的交互式可视化平台。海量公开项目可 fork 学习，支持实时协作，是数据可视化社区的核心。',
+    tags: ['可视化', '社区', 'D3.js'],
+  },
+  {
+    name: 'Information is Beautiful',
+    url: 'https://informationisbeautiful.net',
+    desc: '信息图设计全球标杆。用视觉语言翻译复杂数据，色彩、构图、信息密度都值得反复琢磨。',
+    tags: ['信息图', '设计', '数据新闻'],
+  },
+  {
+    name: 'FiveThirtyEight',
+    url: 'https://fivethirtyeight.com',
+    desc: 'Nate Silver 创办的数据新闻网站。图表风格克制，但信息密度极高，配色系统统一，是做分析型图表的好参考。',
+    tags: ['数据新闻', '统计分析', '图表'],
+  },
+  {
+    name: 'Shirley Wu',
+    url: 'https://shirleywu.studio',
+    desc: '数据可视化艺术家。她的作品模糊了数据与艺术的边界，擅长用 D3.js + WebGL 做实验性交互作品。',
+    tags: ['可视化', '创意', 'D3.js'],
+  },
+  {
+    name: 'Nadieh Bremer',
+    url: 'https://www.visualcinnamon.com',
+    desc: '前天文学家转型数据艺术家。每个项目都有详细的创作过程记录，从数据处理到视觉编码，是学习可视化全流程的好素材。',
+    tags: ['可视化', '全流程', '创意'],
+  },
+  {
+    name: 'The New York Times Graphics',
+    url: 'https://www.nytimes.com/section/upshot',
+    desc: 'NYT 数据可视化团队（The Upshot），新闻可视化的天花板。每年有数百个项目，涵盖选举、经济、气候等领域。',
+    tags: ['数据新闻', '叙事', '专业'],
+  },
+  {
+    name: 'Our World in Data',
+    url: 'https://ourworldindata.org',
+    desc: '牛津大学团队运营的全球数据平台。图表风格统一、清晰，数据可下载可引用，是数据分析和科学可视化的好参考。',
+    tags: ['数据分析', '科学', '全球数据'],
+  },
+  {
+    name: 'FlowingData',
+    url: 'https://flowingdata.com',
+    desc: 'Nathan Yau 的数据可视化博客。20 年来持续分享可视化教程、工具评测和行业案例，是入门者到进阶者的宝藏。',
+    tags: ['博客', '教程', 'R/Python'],
+  },
+  {
+    name: 'Data Sketches',
+    url: 'https://www.datasketch.es',
+    desc: 'Shirley Wu 与 Nadieh Bremer 的联合作品集，12 个月 12 个主题。展示数据可视化从概念到落地的完整创作过程。',
+    tags: ['可视化', '全流程', '创意'],
+  },
+  {
+    name: 'Reuters Graphics',
+    url: 'https://www.reuters.com/graphics',
+    desc: '路透社数据可视化团队。风格简洁有力，善用地图、时间线和交互叙事，是新闻可视化的专业标杆。',
+    tags: ['数据新闻', '地图', '叙事'],
+  },
+  {
+    name: 'D3 Graph Gallery',
+    url: 'https://d3-graph-gallery.com',
+    desc: '最全的 D3.js 图表代码库，每种图表都有可复制的源码和参数说明，适合快速查找实现参考。',
+    tags: ['D3.js', '代码', '图表'],
+  },
+  {
+    name: 'ECharts Gallery',
+    url: 'https://echarts.apache.org/examples',
+    desc: 'Apache ECharts 官方示例集。覆盖折线、柱状、地图、3D 等所有类型，每个示例可在线编辑运行。',
+    tags: ['ECharts', '代码', '图表'],
+  },
+  {
+    name: 'Chartio Data School',
+    url: 'https://dataschool.com',
+    desc: '面向业务分析师的图表选择指南。讲清楚"什么时候用什么图"，附带 SQL 和可视化工具实操教程。',
+    tags: ['图表选择', 'SQL', '入门'],
+  },
+  {
+    name: 'Datawrapper Blog',
+    url: 'https://blog.datawrapper.de',
+    desc: 'Datawrapper 官方博客。大量关于配色、图表选择、可访问性的深度文章，适合提升图表审美和设计意识。',
+    tags: ['设计', '配色', '可访问性'],
+  },
+];

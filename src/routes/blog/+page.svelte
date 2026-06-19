@@ -1,6 +1,6 @@
 <script>
   import BlogCard from '$lib/components/BlogCard.svelte';
-  import { blogPosts } from '$lib/data.js';
+  import { blogPosts } from '$lib/data';
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script>
-  import { about } from '$lib/data.js';
+  import { about } from '$lib/data';
   import RevealWrapper from './RevealWrapper.svelte';
 </script>
 

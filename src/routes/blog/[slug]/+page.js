@@ -1,4 +1,4 @@
-import { blogPosts } from '$lib/data.js';
+import { blogPosts } from '$lib/data';
 
 export function entries() {
   return blogPosts.map((p) => ({ slug: p.slug }));
